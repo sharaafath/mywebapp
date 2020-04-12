@@ -15,13 +15,13 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 	  			<ul class="navbar-nav">
 	    			<li class="nav-item active">
-	      				<a class="nav-link" href="home">Home</a>
+	      				<a class="nav-link" href="home" id="homeLink">Home</a>
 	    			</li>
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="about">About</a>
+	      				<a class="nav-link" href="about" id="aboutLink">About</a>
 	    			</li>
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="login">Login</a>
+	      				<a class="nav-link" href="login" id="loginLink">Login</a>
 	    			</li>
 	  		</ul>
 	  	</div>

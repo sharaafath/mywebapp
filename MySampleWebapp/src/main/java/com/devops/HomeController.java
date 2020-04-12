@@ -38,8 +38,16 @@ public class HomeController {
 	}
 	
 	@PostMapping("/login")
-	public String homePagePost(Map<String, Object> model) {
-		model.put("message", "You are in Login Page");
-		return "welcome";
+	public String loginPagePost(FormBean formDetails) {
+		boolean success = false;
+		if(formDetails.getUsername() != null && !formDetails.getUsername().equals("")) {
+			if(formDetails.getUsername().equalsIgnoreCase("sharaafath")) {
+				success = true;
+			}	
+		}
+		if(success)
+			return "welcome";
+		else
+			return "errorPage";
 	}
 }

@@ -32,13 +32,13 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 	  			<ul class="navbar-nav">
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="home">Home</a>
+	      				<a class="nav-link" href="home" id="homeLink">Home</a>
 	    			</li>
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="about">About</a>
+	      				<a class="nav-link" href="about" id="aboutLink">About</a>
 	    			</li>
 	    			<li class="nav-item  active">
-	      				<a class="nav-link" href="login">Login</a>
+	      				<a class="nav-link" href="login" id="loginLink">Login</a>
 	    			</li>
 	  		</ul>
 	  	</div>
@@ -58,7 +58,7 @@
 										<div class="input-group-prepend">
 									   		<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
 									  	</div>
-									  	<input type="text" class="form-control" id="username" placeholder="Enter Username or Email" aria-label="Username" aria-describedby="basic-addon1">
+									  	<input type="text" class="form-control" name="username" id="username" placeholder="Enter Username or Email" aria-label="Username" aria-describedby="basic-addon1">
 									</div>
 									
 									<label class="control-label success m-2">Password</label>
@@ -66,11 +66,11 @@
 										<div class="input-group-prepend">
 									   		<span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
 									  	</div>
-									  	<input type="password" class="form-control" id="pass" placeholder="Enter Password" aria-label="password" aria-describedby="basic-addon1">
+									  	<input type="password" class="form-control" name="pass" id="pass" placeholder="Enter Password" aria-label="password" aria-describedby="basic-addon1">
 									</div>
 									
 									<div class="m-4" style="float: right;">
-					                    <button type="submit" class="btn btn-primary">Sign in</button>
+					                    <button type="submit" id ="signinbutton" class="btn btn-primary">Sign in</button>
 					                    <button type="reset" class="btn">Reset</button> | <a href="https://ustaxfiler.com/member/login/forgot">Forgot Password </a>
 					                </div>
 														

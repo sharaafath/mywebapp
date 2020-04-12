@@ -15,16 +15,17 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 	  			<ul class="navbar-nav">
 	    			<li class="nav-item active">
-	      				<a class="nav-link" href="home">Home</a>
+	      				<a class="nav-link" href="home" id="homeLink">Home</a>
 	    			</li>
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="about">About</a>
+	      				<a class="nav-link" href="about" id="aboutLink">About</a>
 	    			</li>
 	    			<li class="nav-item">
-	      				<a class="nav-link" href="logout">Logout</a>
+	      				<a class="nav-link" href="logout" id="logutLink">Logout</a>
 	    			</li>
-	  		</ul>
-	  	</div>
+	  			</ul>
+	  		</div>
+	  	<span class="text-white" style="float:right" id="welcomeMessage">Welcome Sharaafath!!</span>
 	</nav>
 	
 	
