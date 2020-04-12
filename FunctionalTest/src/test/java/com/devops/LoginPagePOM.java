@@ -21,7 +21,7 @@ public class LoginPagePOM {
 	}
 	
 	public void enterUserName() {
-		driver.findElement(userName).sendKeys("sharaafath");
+		driver.findElement(userName).sendKeys("wrong");
 	}
 	
 	public void enterPass() {
