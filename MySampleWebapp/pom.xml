@@ -12,7 +12,8 @@
 	<artifactId>MySampleWebapp</artifactId>
 	<version>1.0</version>
 	<name>MySampleWebapp</name>
-	<description>Demo project for Spring Boot</description>
+	<description>My Sample Spring Boot Project</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
