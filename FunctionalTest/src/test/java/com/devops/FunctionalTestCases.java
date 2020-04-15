@@ -11,7 +11,7 @@ public class FunctionalTestCases {
 
 	public HtmlUnitDriver driver;
 	public WebDriverWait wait;
-	public String URL = "http://18.217.134.2:8080/Sharaaf/";
+	public String URL = "http://18.222.127.165:8080/Sharaaf/";
 	
 	
 	@Test
