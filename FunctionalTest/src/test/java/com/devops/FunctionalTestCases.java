@@ -16,7 +16,6 @@ public class FunctionalTestCases {
 	
 	@Test
 	public void applicationTest() {
-		//Adding Comments
 		driver = new HtmlUnitDriver();
 		wait = new WebDriverWait(driver, 10);
 		driver.get(URL);
